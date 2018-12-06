@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AuthorizationComponent implements OnInit {
 
-display = true;
+display = false;
 display1 = false;
 constructor() { }
 ngOnInit() {

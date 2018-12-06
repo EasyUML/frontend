@@ -12,11 +12,19 @@ import { ButtonModule } from 'primeng/button';
 import {ConfirmDialogModule} from 'primeng/confirmdialog';
 import {AutoCompleteModule} from 'primeng/autocomplete';
 import { SidebarModule } from 'primeng/primeng';
+import { MainPageComponent } from './main-page/main-page.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { MainContentComponent } from './main-content/main-content.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AuthorizationComponent
+    AuthorizationComponent,
+    MainPageComponent,
+    HeaderComponent,
+    FooterComponent,
+    MainContentComponent
   ],
   imports: [
     BrowserModule,
